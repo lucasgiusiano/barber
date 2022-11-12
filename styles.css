@@ -1,0 +1,32 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-image: url(images/bg-body2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    border: 0;
+}
+
+.container{
+    backdrop-filter: blur(5px);
+}
+
+.bg-semidark{
+    background-color: #292e33;
+}
+
+.mybtn{
+    border:none;
+    border-radius: 5px;
+
+}
+
+.tabla{
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px; 
+    border-radius: 20px; 
+}
