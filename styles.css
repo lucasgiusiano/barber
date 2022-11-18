@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Rubik+Glitch&display=swap');
+
 .body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -29,4 +31,17 @@
     -moz-border-radius: 20px; 
     -webkit-border-radius: 20px; 
     border-radius: 20px; 
+}
+
+.imgIcon{
+height: 3em;
+width: 3em;
+}
+
+.text-picked{
+    color: #A6A6A6;
+}
+
+.font{
+    font-family: 'Rubik Glitch', cursive;
 }

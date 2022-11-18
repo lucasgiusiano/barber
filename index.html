@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,7 +21,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Fabi Barber</a>
+          <a class="navbar-brand" href="#"><img class="imgIcon" src="images/BarberIcon.png" alt="barberIcon"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,32 +41,29 @@
 
     <main class="main m-0 row justify-content-center bg-black">
 
-      <div class="container row justify-content-center m-0">
+      <div class="container col-10 bg-dark bg-opacity-50 row justify-content-center m-0 my-3 rounded-3">
 
-        <div class="title row justify-content-center col-12 col-md-9 mt-5 rounded-3 ">
-            <img src="images/logo.png" alt="" srcset="">
-                        
+        <div class="title row justify-content-center col-12 col-md-9 rounded-3 p-0">
+            <img class="p-0" src="images/BarberPortada.png" alt="" srcset="">
         </div>
 
-        <div class="cuts col-10 row justify-content-center my-5">
-          <h1 class="col-12 text-center bg-dark bg-opacity-75 text-muted py-2 rounded-2  fw-bold">TE OFRECEMOS</h1>
-          <h1 class="col-12 text-center bg-dark bg-opacity-75 text-muted py-2 rounded-2  fw-bold">Todo tipo de cortes</h1>
-            <div class="row justify-content-center col-12 col-sm-4 col-md-3 my-2 p-0 bg-dark bg-opacity-75 rounded-3 mx-4">
+        <div class="cuts col-10 row justify-content-center">
+            <div class="row justify-content-center col-12 col-sm-5 col-lg-3 my-2 p-0 bg-dark rounded-3 mx-4">
                 <img class="w-100 m-0 p-0 rounded-top" src="images/degrade.png" alt="degrade">
-                <h2 class="col-12 text-center text-muted mt-1">Degradados</h2>
+                <h2 class="col-12 text-center text-picked mt-1">Degradados</h2>
             </div>
-            <div class="row justify-content-center col-12 col-sm-4 col-md-3 my-2 p-0 bg-dark bg-opacity-75 rounded-3 mx-4">
+            <div class="row justify-content-center col-12 col-sm-5 col-lg-3 my-2 p-0 bg-dark rounded-3 mx-4">
                 <img class="w-100 m-0 p-0 rounded-top" src="images/barba.jpg" alt="barba">
-                <h2 class="col-12 text-center text-muted mt-1">Barbas</h2>
+                <h2 class="col-12 text-center text-picked mt-1">Barbas</h2>
             </div>
-            <div class="row justify-content-center col-12 col-sm-4 col-md-3 my-2 p-0 bg-dark bg-opacity-75 rounded-3 mx-4">
+            <div class="row justify-content-center col-12 col-sm-5 col-lg-3 my-2 p-0 bg-dark rounded-3 mx-4">
                 <img class="w-100 m-0 p-0 rounded-top" src="images/tintas.jpg" alt="tinta">
-                <h2 class="col-12 text-center text-muted mt-1">Tintas</h2>
+                <h2 class="col-12 text-center text-picked mt-1">Tintas</h2>
             </div>
         </div>
 
-        <div class="col-12 row justify-content-center mb-4">
-          <button class="btn btn-dark btn-lg rounded-pill col-auto text-muted">Reservar Turno</button>
+        <div class="col-12 row justify-content-center my-5">
+          <button class="btn btn-dark btn-lg rounded-pill col-auto text-picked" id="reservar">Reservar Turno</button>
         </div>
 
       </div>
@@ -76,22 +73,22 @@
     <footer class="col-12 m-0 row justify-content-center bg-dark">
       <div class="col-12 row justify-content-center my-2">
         <div class="row justify-content-center col-12 my-3">
-          <h2 class="col-auto fw-bold text-muted">Contacto</h2>
+          <h2 class="col-auto fw-bold text-picked">Contacto</h2>
           <hr class="text-muted">
           <a href="https://www.instagram.com/luucass26/" class="col-3 col-sm-1"><img src="images/instagram.png" alt="instagram" class="w-100"></a>
           <a href="https://wa.me/098040126" class="col-3 col-sm-1"><img src="images/whatsapp.png" alt="whatsapp" class="w-100"></a>
         </div>
         <div  class="row justify-content-center col-12">
-          <h2 class="col-auto fw-bold text-muted">Encuentranos</h2>
+          <h2 class="col-auto fw-bold text-picked">Encuentranos</h2>
           <hr class="text-muted m-0 ">
-          <p class="text-muted">*Dirección*</p>
-          <p class="text-muted">*Horarios*</p>
-          <p class="text-muted">*Horarios*</p>
-          <p class="text-muted">*Horarios*</p>
-          <p class="text-muted">*Horarios*</p>
+          <p class="text-picked">*Dirección*</p>
+          <p class="text-picked">*Horarios*</p>
+          <p class="text-picked">*Horarios*</p>
+          <p class="text-picked">*Horarios*</p>
+          <p class="text-picked">*Horarios*</p>
         </div>
         <div class="row justify-content-center col-12 my-2">
-          <h2 class="col-auto fw-bold text-muted">Ubicacion</h2>
+          <h2 class="col-auto fw-bold text-picked">Ubicacion</h2>
           <hr class="text-muted border-2">
           <iframe class="col-10 rounded-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17984.966275102808!2d-56.19200444411267!3d-34.8942976988674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f803bdb8919a1%3A0x2e117452a699c880!2sPalacio%20Legislativo!5e0!3m2!1ses-419!2suy!4v1662101610507!5m2!1ses-419!2suy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
